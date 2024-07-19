@@ -109,7 +109,7 @@ function App() {
           className="flex relative flex-col md:flex-row m-4 justify-between border-4 border-[#ffa500] gap-4 w-[660px] bg-[#b3b3b3] p-10"
         >
           <div className="w-full">
-            <div className="whole-drum h-full grid grid-rows-3 grid-flow-col gap-1 ">
+            <div className="whole-drum h-full grid grid-cols-3 grid-rows-3 gap-1">
               {audioClips.map((clip) => (
                 <Drum
                   audioClip={clip}
@@ -162,7 +162,7 @@ function App() {
             </div>
           </div>
           <div className="flex flex-row items-center gap-2 absolute right-3 top-2 italic font-black text-lg">
-            FCC <LiaFreeCodeCamp size={25}/>
+            FCC <LiaFreeCodeCamp size={25} />
           </div>
         </div>
       </main>
