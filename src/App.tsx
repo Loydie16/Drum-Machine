@@ -96,7 +96,7 @@ function App() {
     return () => {
       document.removeEventListener("keydown", handleKeyPress);
     };
-  }, [isChecked]);
+  }, [isChecked, playAudio]);
 
   return (
     <>
@@ -109,7 +109,7 @@ function App() {
           className="flex relative flex-col md:flex-row m-4 justify-between border-4 border-[#ffa500] gap-4 w-[660px] bg-[#b3b3b3] p-10"
         >
           <div className="w-full">
-            <div className="whole-drum h-full grid grid-cols-3 grid-rows-3 gap-1">
+            <div className="whole-drum h-full grid grid-cols-3 grid-flow-row gap-1 ">
               {audioClips.map((clip) => (
                 <Drum
                   audioClip={clip}
