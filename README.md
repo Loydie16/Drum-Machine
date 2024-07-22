@@ -12,7 +12,7 @@ This project is a drum machine application built as part of the Frontend Librari
 
 - HTML
 - CSS (Tailwind)
-- JavaScript (Typescript)
+- TypeScript (React)
 
 ## Installation
 
