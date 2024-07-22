@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Drum Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a drum machine application built as part of the Frontend Libraries projects from FreeCodeCamp. It allows users to play drum sounds by clicking on buttons or pressing corresponding keys on the keyboard.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Play different drum sounds with buttons or keyboard keys
+- Toggle drum sounds on and off
+- Responsive design
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- HTML
+- CSS (Tailwind)
+- JavaScript (Typescript)
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/drum-machine.git
